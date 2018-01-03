@@ -1,29 +1,3 @@
-<?php
-include "/var/www/northshore/pwf/db.php";
-$SELF= $_SERVER['PHP_SELF'];
-
-//$capid=$_SERVER['REMOTE_USER'];
-//setcookie ("member", $capid ,time()+86400*180, "/", ".capnorthshore.org");
-
-include_once $_SERVER['DOCUMENT_ROOT'] . "/directory/common.php";
-
-$directions=array("a" => "ASC", "d" => "DESC");
-if (isset($_GET['key'])) {
-$key=$_GET['key'];
-} else{ $key=0;}
-$srt=$headingCols[$key];
-
-$DIR="ASC";
-if (isset($_GET['o'])) {
-$DIR=$directions[$_GET['o']];
-}
-
-$filter="E";
-if (isset($_GET['f'])) {
-$filter=$_GET['f'];
-}
-
-?>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
 <head>
@@ -49,47 +23,61 @@ tr.rowstyleS {
 }
  .g1 { background-color: #e0e0e0;}
 
-body.custom-background { background-image: url('http://capnorthshore.org//wp-content/uploads/2012/03/WPress-CAP-WIDE-Background-Stripe1.jpg'); background-repeat: repeat; background-position: top left; background-attachment: scroll; }
 
-body {font-family: arial;}
+body {background-image: url(/images/tan_parchment_paper_wallpaper_texture_seamless.jpg);
+      background-repeat: repeat;
+font-family: arial;}
+h1 {color:green;
+    font-weight:700;}
+
+h2{ font-weight:200;
+}
+
+h3{
+  font-weight:200;
+  margin:3px;
+  line-height:1em;}
 </style>
 
 </head>
 
-<body class="custom-background">
-<?php include $_SERVER['DOCUMENT_ROOT'] . "/includes/top.php"; ?>
-<table dir="ltr" border="0" cellpadding="0" cellspacing="0" width="960" align="center"><tr><td valign="top" width="1%">
-
-<?php include $_SERVER['DOCUMENT_ROOT'] . "/includes/navbar.php";
-$db=mysql_connect("localhost",$SQLuser, $SQLpass);
-mysql_select_db("northshore",$db);
-?>
-
-</td><td valign="top" width="24"></td><td valign="top" align="center">
-
-	<!-- ======================= -->
-	<!-- Begin Main Content Area -->
-	<!-- ======================= -->
+<body >
 <center>
-<table border="0" cellspacing="0" cellpadding="0">
-<tr><td align="center" style="background: url(/images/blue-black-gradient.jpg) no-repeat center;background-size: 100%;"><br><img src="/wp-content/uploads/2012/06/WordPress-Header-Image-G1.jpg"></td></tr>
-<tr><td align="center" style="background-color:white;">
-<h1>Op Orders: Northshore Composite Squadron Dining Out</h1>
-<h3>RSVPs, Guest list registration and payment<br> <span style="color:red;font-weight:800;">MUST be completed by 
-Wednesday, January 6th.</span><br> No late registrations will be accepted.<br><i>All attendees must register.</i></h3>
+<img src="/images/Northshore_Badge_ebrite.png">
+<h2>The Northshore Composite Squadron Commander</h2>
 
-</td></tr>
-</table></center>
+<h2>Requests the pleasure of your company at the</h2>
+
+<h1>2018 Northshore Squadron Dining Out</h1>
+
+<h2>On Saturday, the Twenty-Seventh of January</h2>
+
+<h2>Two Thousand and Eighteen</h2>
+
+<h2>at 5:30pm</h2>
+
+<h2>The Grand Vista Ballroom</h2>
+
+<h2>Naval Station Everett</h2>
+
+<h3>The Commons</h3>
+
+<a href="http://maps.google.com/maps?daddr=47.993554,-122.217938" target="_blank" title="Click for Map"><h3>2000 W Marine View Dr<h3>
+<h3>Bldg 1950</h3>
+
+<h3>Everett, WA</h3></a>
 
 
+<h2>Uniform – Blues</h2>
 
-	<!-- ======================= -->
-	<!--  End Main Content Area  -->
-	<!-- ======================= -->
+<h2>Civilian – Semi-Formal / Formal</h2>
 
-</td></tr></table>
+<h1>RSVP required by 14 January, 2018</h1>
+
+<h2><a href="register.php">RSVP & Payment</a></h2>
+<h3 style="margin-bottom:40px;"><a href="http://maps.google.com/maps?daddr=47.993554,-122.217938" target="_blank">Map</a></h3>
 </center>
-<?php include $_SERVER['DOCUMENT_ROOT'] . "/includes/footer.php"; ?>
+
 </body>
 </html>
 
