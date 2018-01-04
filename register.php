@@ -97,7 +97,7 @@ contribution is greatly appreciated, thank you!  Please use the <i><a href="#spo
 
 
 <tr ><td class="g1" valign="top"><p>RSVP and register the name of EACH attendee and pay admission price.
-Then, complete the <a href="#two">N9 Base Access form, in Step 2</a> below.</td><td class="g1"><!-- Button 1 -->
+Then, complete the <a href="#two">SECNAV 5512 Base Access form, in Step 2</a> below.</td><td class="g1"><!-- Button 1 -->
 <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
 <input type="hidden" name="cmd" value="_s-xclick">
 <input type="hidden" name="hosted_button_id" value="RHZPTHMPMK72Q">
