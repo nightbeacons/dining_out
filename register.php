@@ -118,7 +118,7 @@ Then, complete the <a href="#two">SECNAV 5512 Base Access form, in Step 2</a> be
 
 
 <tr ><td  valign="top"><p>VIP Registration<br>
-<i>All VIPs must also complete the <a href="#two">N9 Base Access form in Step 2</a></i></td><td >
+<i>All VIPs must also complete the <a href="#two">SECNAV 5512 Base Access form in Step 2</a></i></td><td >
 <form  action="http://www.capnorthshore.org/dining_out/r2.php" method="post">
 <table>
 <tr><td>VIP Name</td></tr><tr><td><input type="text" name="name"><input type="hidden" name="type" value="vip"></td></tr>
@@ -210,17 +210,17 @@ Then, complete the <a href="#two">SECNAV 5512 Base Access form, in Step 2</a> be
 
 <tr><td colspan="2"><hr></td></tr>
 <tr><td colspan="2"><h3 style="margin-top:25px;"><a name="two">Step Two:</a></h3>
-<p><a href="https://secnav-5512-1-form.pdffiller.com/" target="_blank">Click Here to access the <b>SECNAV 5512 Base Access form</b>.</a>
+<p><a href="http://www.oni.navy.mil/Portals/12/Vistors/Base%20Access%20Form.pdf" target="_blank">Click Here to access the <b>SECNAV 5512 Base Access form</b>.</a>
 <br>
 All VIPs, escorts and attendees 18 and older must complete this form.</p>
-<!--
+
 <p>Scan the form as a PDF and email it to <a href="mailto:northshorediningout@gmail.com">NorthshoreDiningOut@gmail.com</a></p>
-<p>(You may also hand-carry the form to the squadron meeting on 17-January)</p>
--->
+<p>(You may also hand-carry the form to the squadron meeting on 9-January)</p>
+
 
 </td></tr>
 <tr><td colspan="2"><h3 style="margin-top:25px;">Questions?</h3>
-<p>If you have ANY questions, please contact Capt. Pam Neaville, email: <a href="mailto:northshorediningout@gmail.com">NorthshoreDiningOut@gmail.com</a>,
+<p>If you have ANY questions, please contact Capt. Pam Neaville, email: <a href="mailto:northshorediningout@frontier.com">NorthshoreDiningOut@frontier.com</a>,
 phone: <a href="tel:12068183456">206-818-3456</a></p>
 </td></tr>
 </table>
